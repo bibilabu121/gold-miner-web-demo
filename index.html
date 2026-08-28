@@ -70,7 +70,7 @@ async def custom_site():
         __import__(__name__).__file__ = main
 
         # now make a prompt
-        msg  = "⛏️ CLICK HOẶC CHẠM VÀO MÀN HÌNH ĐỂ BẮT ĐẦU CHƠI ⛏️"
+        msg  = "CLICK HOẶC CHẠM VÀO MÀN HÌNH ĐỂ BẮT ĐẦU CHƠI"
         platform.window.infobox.innerText = msg
         print("\n"*4, f"    * Waiting for media user engagement. {msg} *" , "\n"*4)
 
@@ -286,7 +286,7 @@ function show_infobox() {
 
     <script src="https://pygame-web.github.io/cdn/0.9.3//browserfs.min.js"></script>
 
-
+<meta charset="utf-8">
 <style>
     body, html {
         margin: 0;
@@ -314,10 +314,11 @@ function show_infobox() {
         border: 2px solid #c89650 !important;
         border-radius: 8px !important;
         font-weight: bold !important;
-        padding: 12px 24px !important;
+        padding: 14px 28px !important;
         font-size: 18px !important;
-        box-shadow: 0 0 20px rgba(200, 150, 80, 0.4) !important;
+        box-shadow: 0 0 25px rgba(200, 150, 80, 0.5) !important;
         cursor: pointer !important;
+        text-align: center !important;
     }
 </style>
 </head>
