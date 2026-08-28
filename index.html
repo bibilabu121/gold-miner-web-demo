@@ -70,7 +70,7 @@ async def custom_site():
         __import__(__name__).__file__ = main
 
         # now make a prompt
-        msg  = "CLICK TO START / BẤM ĐỂ BẮT ĐẦU"
+        msg  = "CLICK TO START"
         platform.window.infobox.innerText = msg
         print("\n"*4, f"    * Waiting for media user engagement. {msg} *" , "\n"*4)
 
@@ -316,8 +316,9 @@ function show_infobox() {
         border: 2px solid #c89650 !important;
         border-radius: 8px !important;
         font-weight: bold !important;
-        padding: 14px 28px !important;
-        font-size: 18px !important;
+        padding: 14px 32px !important;
+        font-size: 20px !important;
+        letter-spacing: 1px !important;
         box-shadow: 0 0 25px rgba(200, 150, 80, 0.5) !important;
         cursor: pointer !important;
         text-align: center !important;
